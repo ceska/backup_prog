@@ -1,4 +1,8 @@
 export interface Event {
-    id: number;
+    id?: number;
     title: string;
+    description: string;
+    location: string;
+    ticketNo: number;
+    ticketSold: number;
 }
